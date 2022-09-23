@@ -7,7 +7,7 @@
     "start-dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "author": "",
+  "author": "Hagi Azzam",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.19.1",
