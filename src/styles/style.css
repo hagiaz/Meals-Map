@@ -1,0 +1,66 @@
+@import 'meallist.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Righteous&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+  font-family: 'Righteous', cursive;
+}
+
+.navbar-brand img {
+  width: 25px;
+  height: 25px;
+}
+
+#subtitle{
+  color: white;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+}
+
+.title{
+  text-align: center;
+}
+
+.title img{
+  width: 150px;
+  height: 150px;
+  margin: 12px 0px 12px 0px;
+}
+
+.title h1{
+  font-family: 'Righteous', cursive;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  background-color: #FFFDD0;
+}
+
+#content-wrap {
+  padding-bottom: 10rem;
+}
+
+@media screen and (max-width: 800px) {
+  .title img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .title p{
+    font-size: 12px;
+  }
+}

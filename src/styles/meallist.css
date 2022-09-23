@@ -1,0 +1,77 @@
+#mealList {
+  margin-top: 10px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+}
+
+#mealList > .placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.meal {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow-y: scroll;
+  width: 47%;
+  display: inline-block;
+  max-height: 35rem;
+}
+
+.meal-info {
+  padding: 24px;
+  background-color: white;
+}
+
+.meal-info > h2 {
+  font-weight: bold;
+}
+
+.meal-info > p {
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
+.meal-info > a {
+  text-decoration: none;
+}
+
+.ingredients{
+  text-align: left;
+}
+
+.instruction{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.idmeal{
+  overflow: hidden;
+  margin-bottom: 3px;
+}
+
+.notfound{
+  background-color: FFFDD0;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .meal {
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    display: inline-block;
+  }
+}
